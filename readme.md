@@ -22,9 +22,9 @@ So the solutions to the above problems are:
  1. Generate your own .lib file, or write your own GetProcAddress boilerplate.  God help your painful deteriorating
     RSI-addled wrists, but take comfort that a maintainer didn't have to update the build system.
 
- 2. This project has the correct version of `chezscheme.h`.  The build system has been at least been since
-    corrected to distribute the correct headers, so if you wait a bit, the official distribution will probably be
-    fine too.
+ 2. This project has the correct version of `chezscheme.h`.  Apparently the build system has at least been updated
+    to provide the correct headers now, so if you wait a bit, the official distribution will eventually be
+    fine maybe.
 
 ## Generating your own .lib files
 
