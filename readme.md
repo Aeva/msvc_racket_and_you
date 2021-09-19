@@ -28,7 +28,7 @@ So the solutions to the above problems are:
 
 ## Generating your own .lib files
 
- 1. Create a files called `libracketcs_d9hn5s.def` (or similar, if your .dll is not named `libracketcs_d9hn5s.dll`)
+ 1. Create a file called `libracketcs_d9hn5s.def` (or similar, if your .dll is not named `libracketcs_d9hn5s.dll`)
     with each symbol you need on a separate line after `EXPORTS`, like so:
     ```
     EXPORTS
