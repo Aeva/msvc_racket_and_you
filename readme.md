@@ -37,7 +37,9 @@ So the solutions to the above problems are:
     ```
 
  2. Run this command (adjust the file names to match your dll version) from a Visual Studio developer command prompt:
-    ```lib /def:libracketcs_d9hn5s.def /out:libracketcs_d9hn5s.lib /machine:x64```
+    ```
+    lib /def:libracketcs_d9hn5s.def /out:libracketcs_d9hn5s.lib /machine:x64
+    ```
 
  3. Add your `libracketcs_d9hn5s.lib` to the project's "Additional Dependencies" field in the Linker -> Input settings.
 
